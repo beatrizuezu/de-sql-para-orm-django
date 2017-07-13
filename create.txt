@@ -1,0 +1,26 @@
+from core.categoria.models import Categoria
+from core.produto.models import Produto
+
+Categoria.objects.create(nome='categoria_1')
+Categoria.objects.create(nome='categoria_2')
+Categoria.objects.create(nome='categoria_3')
+Categoria.objects.create(nome='categoria_4')
+Categoria.objects.create(nome='categoria_5')
+
+Produto.objects.create(nome='Produto 1 da Categoria 1', valor=10.00, categoria_id=1)
+Produto.objects.create(nome='Produto 2 da Categoria 1', valor=10.00, categoria_id=1)
+Produto.objects.create(nome='Produto 3 da Categoria 1', valor=10.00, categoria_id=1)
+Produto.objects.create(nome='Produto 4 da Categoria 1', valor=10.00, categoria_id=1)
+Produto.objects.create(nome='Produto 5 da Categoria 1', valor=10.00, categoria_id=1)
+
+Produto.objects.create(nome='Produto 1 da Categoria 2', valor=10.00, categoria_id=2)
+Produto.objects.create(nome='Produto 2 da Categoria 2', valor=10.00, categoria_id=2)
+Produto.objects.create(nome='Produto 3 da Categoria 2', valor=10.00, categoria_id=2)
+Produto.objects.create(nome='Produto 4 da Categoria 2', valor=10.00, categoria_id=2)
+Produto.objects.create(nome='Produto 5 da Categoria 2', valor=10.00, categoria_id=2)
+
+Produto.objects.create(nome='Produto 1 da Categoria 3', valor=10.00, categoria_id=3)
+Produto.objects.create(nome='Produto 2 da Categoria 3', valor=10.00, categoria_id=3)
+Produto.objects.create(nome='Produto 3 da Categoria 3', valor=10.00, categoria_id=3)
+Produto.objects.create(nome='Produto 4 da Categoria 3', valor=10.00, categoria_id=3)
+Produto.objects.create(nome='Produto 5 da Categoria 3', valor=10.00, categoria_id=3)
