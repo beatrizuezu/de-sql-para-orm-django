@@ -24,3 +24,15 @@ Produto.objects.create(nome='Produto 2 da Categoria 3', valor=10.00, categoria_i
 Produto.objects.create(nome='Produto 3 da Categoria 3', valor=10.00, categoria_id=3)
 Produto.objects.create(nome='Produto 4 da Categoria 3', valor=10.00, categoria_id=3)
 Produto.objects.create(nome='Produto 5 da Categoria 3', valor=10.00, categoria_id=3)
+
+Produto.objects.create(nome='Produto 1 da Categoria 4', valor=10.00, categoria_id=4)
+Produto.objects.create(nome='Produto 2 da Categoria 4', valor=10.00, categoria_id=4)
+Produto.objects.create(nome='Produto 3 da Categoria 4', valor=10.00, categoria_id=4)
+Produto.objects.create(nome='Produto 4 da Categoria 4', valor=10.00, categoria_id=4)
+Produto.objects.create(nome='Produto 5 da Categoria 4', valor=10.00, categoria_id=4)
+
+Produto.objects.create(nome='Produto 1 da Categoria 5', valor=10.00, categoria_id=5)
+Produto.objects.create(nome='Produto 2 da Categoria 5', valor=10.00, categoria_id=5)
+Produto.objects.create(nome='Produto 3 da Categoria 5', valor=10.00, categoria_id=5)
+Produto.objects.create(nome='Produto 4 da Categoria 5', valor=10.00, categoria_id=5)
+Produto.objects.create(nome='Produto 5 da Categoria 5', valor=10.00, categoria_id=5)
