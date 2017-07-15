@@ -1,7 +1,10 @@
+#.all()
 from core.produto.models import Produto
 
+#lista todos os registros
 Produto.objects.all()
 
-script = Produto.objects.all()
+orm = Produto.objects.all()
 
-print(script.query)
+#para visualizar de como ficou a query
+print(orm.query)
