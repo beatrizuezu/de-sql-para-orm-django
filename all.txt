@@ -1,0 +1,7 @@
+from core.produto.models import Produto
+
+Produto.objects.all()
+
+script = Produto.objects.all()
+
+print(script.query)
