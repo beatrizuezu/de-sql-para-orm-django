@@ -1,0 +1,9 @@
+# .values()
+
+from core.produto.models import Produto
+
+Produto.objects.values('nome', 'valor')
+
+orm = Produto.objects.values('nome', 'valor')
+
+print(orm.query)
