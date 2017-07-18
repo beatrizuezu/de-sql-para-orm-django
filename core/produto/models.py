@@ -14,3 +14,6 @@ class Produto(models.Model):
         null=True
     )
     categoria = models.ForeignKey(Categoria)
+
+    def __unicode__(self):
+        return '%s' % self.nome
