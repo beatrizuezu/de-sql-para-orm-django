@@ -15,5 +15,5 @@ class Produto(models.Model):
     )
     categoria = models.ForeignKey(Categoria)
 
-    def __unicode__(self):
+    def __str__(self):
         return '%s' % self.nome
