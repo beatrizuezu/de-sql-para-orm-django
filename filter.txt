@@ -34,14 +34,3 @@ Produto.objects.filter(categoria__nome='categoria_1')
 orm = Produto.objects.filter(categoria__nome='categoria_1')
 
 print(orm.query) # para visualizar a query
-
-
-# GET - lista todos os produtos com o id = 1
-Produto.objects.get(id=1)
-
-orm = Produto.objects.get(categoria_id=1)
-
-#para visualizar de como ficou a query
-print(orm.query) #eh esperado um erro
-
-type(orm.query)

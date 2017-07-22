@@ -1,6 +1,0 @@
-
-Produto.objects.aggregate(
-    valor_maximo=Max('valor'),
-    valor_minimo=Min('valor'),
-    valor_medio=Avg('valor')
-)
