@@ -1,0 +1,14 @@
+# GET - lista todos os produtos com o id = 1
+Produto.objects.get(id=1)
+
+orm = Produto.objects.get(categoria_id=1)
+
+#para visualizar de como ficou a query
+print(orm.query) #eh esperado um erro
+
+type(orm.query)
+
+#importa o connection para visualizar a query sql
+from django.dd import connection
+
+connection.queries
