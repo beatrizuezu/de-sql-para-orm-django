@@ -1,5 +1,5 @@
 from django.db import models
-from core.categoria.models import Categoria
+from core.categorias.models import Categoria
 
 class Produto(models.Model):
     nome = models.CharField(
