@@ -1,5 +1,5 @@
-from core.categoria.models import Categoria
-from core.produto.models import Produto
+from core.categorias.models import Categoria
+from core.produtos.models import Produto
 
 Categoria.objects.create(nome='categoria_1')
 Categoria.objects.create(nome='categoria_2')

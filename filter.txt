@@ -1,6 +1,6 @@
 # .filter() vs .get()
 
-from core.produto.models import Produto
+from core.produtos.models import Produto
 
 # FILTER - lista todos os produtos com o id = 1
 Produto.objects.filter(categoria_id=1)

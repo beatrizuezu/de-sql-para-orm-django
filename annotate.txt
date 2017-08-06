@@ -1,6 +1,6 @@
 #importando o sum
 from django.db.models import Sum
-from core.produto.models import Produto
+from core.produtos.models import Produto
 
 #listando o valor total por categoria de produto
 Produto.objects.values('categoria').annotate(Sum('valor'))

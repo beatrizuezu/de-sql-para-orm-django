@@ -1,5 +1,5 @@
 #.all()
-from core.produto.models import Produto
+from core.produtos.models import Produto
 
 #lista todos os registros
 Produto.objects.all()

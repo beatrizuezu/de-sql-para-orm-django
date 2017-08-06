@@ -1,7 +1,7 @@
 #importando as funcao avg, max e min do django
 from django.db.models import Avg, Max, Min
 
-from core.produto.models import Produto
+from core.produtos.models import Produto
 
 #agrega os produtos obtendo o valor maximo, minimo e o medio de um produto
 Produto.objects.aggregate(

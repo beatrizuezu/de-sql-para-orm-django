@@ -1,5 +1,5 @@
 # exclude()
-from core.produto.models import Produto
+from core.produtos.models import Produto
 
 #exclui da listagem todos os produtos com o id maior e igual a 4
 Produto.objects.exclude(id__gte=4)
