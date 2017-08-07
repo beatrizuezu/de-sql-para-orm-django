@@ -22,6 +22,11 @@ pip install -r requirements.txt
 ```console
 ./manage.py migrate
 ```
+
+### Popular os dados no banco
+```console
+./manage.py loaddata
+```
 ### Rodar o shell
 ```console
  ./manage.py shell
