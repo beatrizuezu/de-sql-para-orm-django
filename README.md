@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```console
 ./manage.py migrate
 ```
-## Rodar o shell
+### Rodar o shell
 ```console
  ./manage.py shell
  ```
