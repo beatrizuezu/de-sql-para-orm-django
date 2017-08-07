@@ -1,0 +1,225 @@
+{
+   "model":"produtos.produto",
+   "pk":1,
+   "fields":{
+      "nome":"Produto 1 da Categoria 1",
+      "valor":"2.00",
+      "categoria":1
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":2,
+   "fields":{
+      "nome":"Produto 2 da Categoria 1",
+      "valor":"5.00",
+      "categoria":1
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":3,
+   "fields":{
+      "nome":"Produto 3 da Categoria 1",
+      "valor":"20.00",
+      "categoria":1
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":4,
+   "fields":{
+      "nome":"Produto 4 da Categoria 1",
+      "valor":"15.00",
+      "categoria":1
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":5,
+   "fields":{
+      "nome":"Produto 5 da Categoria 1",
+      "valor":"10.00",
+      "categoria":1
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":6,
+   "fields":{
+      "nome":"Produto 1 da Categoria 2",
+      "valor":"5.00",
+      "categoria":2
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":7,
+   "fields":{
+      "nome":"Produto 2 da Categoria 2",
+      "valor":"7.00",
+      "categoria":2
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":8,
+   "fields":{
+      "nome":"Produto 3 da Categoria 2",
+      "valor":"20.00",
+      "categoria":2
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":9,
+   "fields":{
+      "nome":"Produto 4 da Categoria 2",
+      "valor":"15.00",
+      "categoria":2
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":10,
+   "fields":{
+      "nome":"Produto 5 da Categoria 2",
+      "valor":"19.00",
+      "categoria":2
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":11,
+   "fields":{
+      "nome":"Produto 1 da Categoria 3",
+      "valor":"12.00",
+      "categoria":3
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":12,
+   "fields":{
+      "nome":"Produto 2 da Categoria 3",
+      "valor":"14.00",
+      "categoria":3
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":13,
+   "fields":{
+      "nome":"Produto 3 da Categoria 3",
+      "valor":"100.00",
+      "categoria":3
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":14,
+   "fields":{
+      "nome":"Produto 4 da Categoria 3",
+      "valor":"10.20",
+      "categoria":3
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":15,
+   "fields":{
+      "nome":"Produto 5 da Categoria 3",
+      "valor":"11.40",
+      "categoria":3
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":16,
+   "fields":{
+      "nome":"Produto 1 da Categoria 4",
+      "valor":"75.05",
+      "categoria":4
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":17,
+   "fields":{
+      "nome":"Produto 2 da Categoria 4",
+      "valor":"44.20",
+      "categoria":4
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":18,
+   "fields":{
+      "nome":"Produto 3 da Categoria 4",
+      "valor":"22.10",
+      "categoria":4
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":19,
+   "fields":{
+      "nome":"Produto 4 da Categoria 4",
+      "valor":"44.20",
+      "categoria":4
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":20,
+   "fields":{
+      "nome":"Produto 5 da Categoria 4",
+      "valor":"23.75",
+      "categoria":4
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":21,
+   "fields":{
+      "nome":"Produto 1 da Categoria 5",
+      "valor":"5.50",
+      "categoria":5
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":22,
+   "fields":{
+      "nome":"Produto 2 da Categoria 5",
+      "valor":"17.80",
+      "categoria":5
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":23,
+   "fields":{
+      "nome":"Produto 3 da Categoria 5",
+      "valor":"17.45",
+      "categoria":5
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":24,
+   "fields":{
+      "nome":"Produto 4 da Categoria 5",
+      "valor":"33.45",
+      "categoria":5
+   }
+},
+{
+   "model":"produtos.produto",
+   "pk":25,
+   "fields":{
+      "nome":"Produto 5 da Categoria 5",
+      "valor":"13.00",
+      "categoria":5
+   }
+}
