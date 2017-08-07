@@ -18,7 +18,7 @@ source .env/bin/activate
 pip install -r requirements.txt
 ```
 
-### Crie um banco chamado `Exemplo` no MySQL
+### Crie um banco chamado `exemplo` no MySQL
 ```mysql
 create database exemplo;
 ```
