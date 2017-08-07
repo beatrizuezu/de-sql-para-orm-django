@@ -1,0 +1,37 @@
+[
+  {
+     "model":"categorias.categoria",
+     "pk":1,
+     "fields":{
+        "nome":"categoria_1"
+     }
+  },
+  {
+     "model":"categorias.categoria",
+     "pk":2,
+     "fields":{
+        "nome":"categoria_2"
+     }
+  },
+  {
+     "model":"categorias.categoria",
+     "pk":3,
+     "fields":{
+        "nome":"categoria_3"
+     }
+  },
+  {
+     "model":"categorias.categoria",
+     "pk":4,
+     "fields":{
+        "nome":"categoria_4"
+     }
+  },
+  {
+     "model":"categorias.categoria",
+     "pk":5,
+     "fields":{
+        "nome":"categoria_5"
+     }
+  }
+]
