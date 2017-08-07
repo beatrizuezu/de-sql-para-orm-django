@@ -18,16 +18,23 @@ source .env/bin/activate
 pip install -r requirements.txt
 ```
 
-### Criar o banco de dados
+### Crie um banco chamado `Exemplo` no MySQL
+```mysql
+create database exemplo;
+```
+
+### E execute as migrations
 ```console
 ./manage.py migrate
 ```
 
 ### Popular os dados no banco
 ```console
-./manage.py loaddata
+./manage.py loaddata categorias produtos
 ```
 ### Rodar o shell
 ```console
  ./manage.py shell
  ```
+
+### Seguir os passos dessa [publicação](https://medium.com/@beatrizuezu/visualizando-query-sql-a-partir-do-orm-django-5771370a9c55)
