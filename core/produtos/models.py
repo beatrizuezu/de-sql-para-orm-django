@@ -13,7 +13,7 @@ class Produto(models.Model):
         blank=True,
         null=True
     )
-    categoria = models.ForeignKey(Categoria)
+    categoria = models.ForeignKey(Categoria, models.SET_NULL, null=True)
 
     def __str__(self):
         return '%s' % self.nome
