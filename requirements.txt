@@ -1,4 +1,4 @@
-Django==3.2.5
+Django==3.2.12
 ipython==7.25.0
 mysqlclient==2.0.3
 pytz==2021.1
